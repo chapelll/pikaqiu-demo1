@@ -1,5 +1,7 @@
 
-let string =  `.skin *{
+let string =  `
+/* 首先画皮卡丘的皮 */
+.skin *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -19,7 +21,7 @@ body {
     background: #ffe600;
     min-height: 100vh;
 }
-
+ /* 接着是它的鼻子 */
 .nose {
     width: 0px;
     height: 0px;
@@ -63,6 +65,7 @@ body {
     border-radius: 50%;
     background-color: black;
 }
+ /* 两只眼睛也别忘了 */
 .eye-left {
     position: absolute;
     border: 1px solid grey;
@@ -113,7 +116,7 @@ body {
     left: 5px;
     top: 3px;
 }
-
+ /* 还有它的嘴唇 */
 .mouth {
     width: 150px;
     height: 150px;
@@ -221,6 +224,7 @@ body {
     background-color: #ff485f;
     border-radius: 50%;
 }
+ /* 最后是两个脸颊喽 */
 .face-left {
     position: absolute;
     width: 80px;
